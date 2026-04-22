@@ -134,7 +134,7 @@
     "short_name": "Makeup",
     "url": "./index.html#screen-makeup",
     "description": "Coba berbagai tampilan makeup secara virtual",
-    "icons": [{ "src": "icons/shortcut-makeup.png", "sizes": "1254x1254", "type": "image/png" }]
+    "icons": [{ "src": "icons/shortcut-makeup.png", "sizes": "1024x1024", "type": "image/png" }]
   },
   {
     "name": "Skin Tracker",
