@@ -56,31 +56,30 @@
       "url": "url"
     }
   },
-  "widgets": [
-    {
-      "name": "Lumiera SkinGlow Widget",
-      "description": "Pantau kondisi kulit harian langsung dari home screen",
-      "tag": "lumiera-skinglow",
-      "ms_ac_template": "widgets/skinglow-template.json",
-      "data": "widgets/skinglow-data.json",
-      "type": "application/json",
-      "screenshots": [
-        {
-          "src": "icons/widget-screenshot.png",
-          "sizes": "600x400",
-          "label": "SkinGlow Widget Preview"
-        }
-      ],
-      "icons": [
-        {
-          "src": "icons/icon-192x192-A.png",
-          "sizes": "192x192"
-        }
-      ],
-      "auth": false,
-      "update": 86400
-    }
-  ],
+"widgets": [
+  {
+    "name": "SkinGlow Tracker",
+    "short_name": "SkinGlow",
+    "description": "Pantau kondisi kulit harian langsung dari home screen",
+    "tag": "lumiera-skinglow",
+    "url": "./index.html#screen-tracker",
+    "icons": [
+      {
+        "src": "icons/icon-192x192-A.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "icons/screenshot1.png",
+        "sizes": "1080x1920",
+        "type": "image/png",
+        "label": "SkinGlow Widget Preview"
+      }
+    ]
+  }
+],
   "edge_side_panel": {
     "preferred_width": 400
   },
@@ -127,7 +126,7 @@
     "short_name": "Scan",
     "url": "./index.html#screen-scan",
     "description": "Analisis kondisi kulit wajah Anda",
-    "icons": [{ "src": "icons/shortcut-scan.png", "sizes": "884x1326", "type": "image/png" }]
+    "icons": [{ "src": "icons/shortcut-scan.png", "sizes": "884x132", "type": "image/png" }]
   },
   {
     "name": "Virtual Makeup",
