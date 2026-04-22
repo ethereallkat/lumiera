@@ -10,6 +10,49 @@
   "theme_color": "#E8B4B8",
   "orientation": "portrait",
   "lang": "id",
+  "categories": [
+    "beauty",
+    "lifestyle",
+    "health"
+  ],
+  "file_handlers": [
+    {
+      "action": "./index.html",
+      "accept": {
+        "image/*": [".jpg", ".jpeg", ".png", ".webp"]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+lumiera",
+      "url": "./index.html?uri=%s"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://ethereallkat.github.io/lumiera/manifest.json"
+    },
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.lumiera.app",
+      "id": "com.lumiera.app"
+    }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
   "icons": [
     {
       "src": "icons/icon-192x192-A.png",
